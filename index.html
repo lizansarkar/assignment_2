@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwind cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Assignment 2</title>
+</head>
+<body>
+    <!-- navbar section start -->
+    <section class="flower-section nav-section">
+        <nav class="nav-bar flex items-center justify-between px-20">
+            <div class="nav-logo">
+                <img src="assets/logo.png" alt="home logo">
+            </div>
+
+            <div class="nav-link flex items-center justify-between gap-x-10">
+                <ul class="page-link flex space-x-8 gap-10">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+
+                <div class="cart-option">
+                    <a href="#" class="cart-icon flex items-center gap-x-2">
+                        <img src="https://img.icons8.com/ios-filled/50/000000/shopping-cart.png" alt="Cart Icon">
+                        <span class="cart-count">Cart ($56)</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- banner section start -->
+        <div class="hero-section flex flex-wrap items-end justify-between">
+            <div class="hero-text w-130">
+                <h1 class="hero-tittle text-[65px]">ALWAYS <span class="text-or">FRESH <br> FLOWERS</span></h1>
+                <p class="text-[22px] secondary-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            </div>
+
+            <div class="hero-img h-100 w-200">
+                <img src="assets/hero-flower.png" alt="Hero Image" class="w-full h-full object-cover">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
