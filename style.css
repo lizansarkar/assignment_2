@@ -62,6 +62,18 @@
     margin-top: 15px;
 }
 
+/* plant-lover-section start */
+.plant-lover-section {
+    margin: 100px 0;
+}
+
+.plant-lover-text {
+    width: 650px;
+}
+
+.plant-lover-text h1 {
+    padding-right: 200px;
+}
 
 /* all media query code here */
 
@@ -92,13 +104,19 @@
         font-size: 30px;
     }
 
-    .plant-section {
-        padding-bottom: 200px;
-    }
-
     .plant-d {
         padding: 0px 0px;
         font-size: 16px;
+    }
+
+    .plant-lover-text h1 {
+        font-size: 30px;
+        padding-right: 0px;
+        margin: 10px 0px;
+    }
+
+    .plant-lover-badge {
+        display: none;
     }
 }
 
