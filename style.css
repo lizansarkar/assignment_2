@@ -1,4 +1,5 @@
 /* asiignment 2 all work css code here */
+@import "tailwind.css";
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +7,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.flower-section {
+.global-section {
     padding: 20px 120px;
 }
 
 :root {
   --primary-color: #000000;
   --secondary-color: rgba(3, 3, 3, 0.5);
+  --primary-btn-color: #E95A08;
+  --primary-font-size: 16px;
 }
 
 /* navbar section start */
@@ -37,15 +40,33 @@
     color: var(--secondary-color);
 }
 
+/* plant section start */
+.plant-section {
+    padding-bottom: 100px;
+}
 
+.plant-d {
+    margin: 30px 0px;
+    padding: 0px 300px;
+}
 
+.plant-card-tittle {
+    margin-top: 10px;
+}
 
+.btn-primary {
+    background-color: var(--primary-btn-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    width: 100%;
+    margin-top: 15px;
+}
 
 
 /* all media query code here */
 
 @media (max-width: 768px) {
-    .flower-section {
+    .global-section {
         padding: 20px 30px;
         height: auto;
     }
@@ -69,6 +90,14 @@
 
     .hero-tittle {
         font-size: 30px;
+    }
+
+    .plant-section {
+        padding-bottom: 200px;
+    }
+
+    .plant-d {
+        padding: 0px 0px;
     }
 }
 
